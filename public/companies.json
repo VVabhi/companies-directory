@@ -1,0 +1,23 @@
+[
+  { "name": "Tech nova",   "location": "New York", "industry": "Technology" },
+  { "name": "Nestle",   "location": "London",   "industry": "Food" },
+  { "name": "Coco cola", "location": "Berlin",   "industry": "Food" },
+  { "name": "Infosys",  "location": "Berlin",    "industry": "Technology" },
+  { "name": "Tata Power",  "location": "New York",    "industry": "Manufacturing" },
+  { "name": "Udemy",  "location": "Paris",    "industry": "Education" },
+  { "name": "Mahindhra",  "location": "Paris",    "industry": "Manufacturing" },
+  { "name": "Tata Motors",  "location": "New York",    "industry": "Manufacturing" },
+  { "name": "My eduLearn",  "location": "Paris",    "industry": "Education" },
+  { "name": "AIG",  "location": "London",    "industry": "Healthcare" },
+  { "name": "KIMS",  "location": "Tokyo",    "industry": "Healthcare" },  
+  { "name": "Neuton X",  "location": "New York",    "industry": "Technology" },
+  { "name": "UST",  "location": "Berlin",    "industry": "Technology" },
+  { "name": "RK Eng",  "location": "London",    "industry": "Manufacturing" },
+  { "name": "Ranstad",  "location": "Paris",    "industry": "Finance" },  
+  { "name": "Zinc",  "location": "London",    "industry": "Finance" },  
+  { "name": "Bajaj",  "location": "Tokyo",    "industry": "Finance" },  
+  { "name": "Hcl",  "location": "New York",    "industry": "Technology" },
+  { "name": "Toyota",  "location": "Berlin",    "industry": "Manufacturing" },
+  { "name": "Suzuki",  "location": "London",    "industry": "Manufacturing" },
+  { "name": "Navi",  "location": "Paris",    "industry": "Finance" }
+]
