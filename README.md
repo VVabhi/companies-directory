@@ -4,6 +4,13 @@ A responsive React-based **Companies Directory** application that displays a lis
 
 ---
 
+## 📺 Live Demo
+
+🚀 **Live App Link:**  
+👉 https://frolicking-kataifi-67019c.netlify.app/
+
+---
+
 ## 🚀 Features
 
 ✅ Search companies by name  
@@ -13,7 +20,7 @@ A responsive React-based **Companies Directory** application that displays a lis
 ✅ Clear all filters with one click  
 ✅ Responsive card layout  
 ✅ Loading & Error states while fetching data  
-✅ Deployed using **Netlify** (upcoming)  
+✅ Deployed using **Netlify**
 
 ---
 
@@ -30,5 +37,4 @@ A responsive React-based **Companies Directory** application that displays a lis
 ---
 
 ## 📁 Folder Structure
-
 
