@@ -2,26 +2,24 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./index.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import logo from "../images/col.png";
+import App from './App';
+
+
 
 const CompaniesDirectory = () => {
-  // data + loading/error
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // filters
   const [search, setSearch] = useState("");
   const [location, setLocation] = useState("");
   const [industry, setIndustry] = useState("");
 
-  // sorting
   const [sortBy, setSortBy] = useState("name-asc"); 
 
-  // pagination
   const [pageSize, setPageSize] = useState(9);
   const [page, setPage] = useState(1);
 
-  // fetch JSON from /public
   useEffect(() => {
     fetch("/companies.json")
       .then((res) => {
@@ -38,7 +36,6 @@ const CompaniesDirectory = () => {
       });
   }, []);
 
-  // filter
   const filtered = useMemo(() => {
     const s = search.trim().toLowerCase();
     return companies.filter((c) => {
@@ -49,7 +46,6 @@ const CompaniesDirectory = () => {
     });
   }, [companies, search, location, industry]);
 
-  // sort
   const filteredSorted = useMemo(() => {
     const data = [...filtered];
     if (sortBy === "name-asc") {
@@ -90,7 +86,6 @@ const CompaniesDirectory = () => {
         </div>
       </div>
 
-      {/* FILTERS (unchanged layout) */}
       <div className="container" role="main">
         <h1>Companies Directory</h1>
         <div className="filter-card" aria-label="Filters">
@@ -179,7 +174,6 @@ const CompaniesDirectory = () => {
             )}
           </div>
 
-          {/* PAGINATION CONTROLS */}
           <div
             style={{
               display: "flex",
@@ -224,7 +218,6 @@ const CompaniesDirectory = () => {
         </>
       )}
 
-      {/* FOOTER (unchanged) */}
       <div className="footer">
         <div className="footer-text">
           <p>Built with plain HTML, CSS, Reactjs. All Rights Reserved by FLM</p>
