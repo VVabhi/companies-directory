@@ -2,7 +2,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./index.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import logo from "../images/col.png";
-import App from './App';
 
 
 
